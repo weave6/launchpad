@@ -1,0 +1,20 @@
+{
+  "printWidth": 140,
+  "parser": "typescript",
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "arrowParens": "always",
+  "overrides": [
+    {
+      "files": "*.sol",
+      "options": {
+        "printWidth": 240,
+        "tabWidth": 2,
+        "useTabs": false,
+        "singleQuote": false,
+        "bracketSpacing": false,
+        "explicitTypes": "always"
+      }
+    }
+  ]
+}
